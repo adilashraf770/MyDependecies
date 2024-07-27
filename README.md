@@ -16,7 +16,11 @@ dependencies {
     // Volley Networking library
     implementation("com.android.volley:volley:1.2.1")
      // Gson Convert library
-    implementation ("com.google.code.gson:gson:2.11.0")
+     implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
+     // Retrofit Networking library
+     implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+
+
     // Glide Image Handleing libaray
     implementation("com.github.bumptech.glide:glide:4.16.0")
 
