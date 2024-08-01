@@ -24,8 +24,10 @@ dependencies {
     
      // Gson Convert library
      implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
-
-
+      
+     // Please Wait Progress Dialog
+     implementation("io.github.tashilapathum:please-wait:0.5.0")
+  
     // Glide Image Handleing libaray
     implementation("com.github.bumptech.glide:glide:4.16.0")
 
