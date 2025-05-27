@@ -6,6 +6,10 @@ plugins {
     id ("kotlin-kapt")
 }
 
+  buildFeatures {
+         viewBinding = true
+     }
+
 dependencies {
  
     implementation("androidx.core:core-ktx:1.12.0")
